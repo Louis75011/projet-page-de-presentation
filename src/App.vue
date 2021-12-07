@@ -26,9 +26,15 @@
     color: #2c3e50;
   }
 
-  body {
+  *,
+  *::before,
+  *::after {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+  }
+
+  body {
+    background-image: linear-gradient(to right, gray, white, cyan);
   }
 </style>

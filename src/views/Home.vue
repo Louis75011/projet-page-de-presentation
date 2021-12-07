@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Ma page d'accueil</h1>
+        <h2>Ma page d'accueil</h2>
         <button @click="display()"> Cacher/Afficher</button>
         <div class="grid_container" v-if="isDisplay">
             <img src="../img/FR.jpg" class="img">
@@ -43,29 +43,44 @@
         text-align: left;
         width: 100%;
     }
+
     .grid_container {
         width: 100%;
         border-bottom: 1px black;
         display: grid;
         grid-template-rows: repeat(1, 350px);
         grid-template-columns: repeat(2, 350px);
+        /* grid-gap: 30px; */
         flex-direction: row;
         justify-content: center;
     }
+    
     .img {
         width: 60%;
         margin-top: 5rem;
     }
+
     .li {
         width: 100%;
         margin-top: 1rem;
         font-size: 20px;
         font-style: italic;
     }
+
     button {
         margin-top: 5rem;
     }
-    h1 {
+
+    h2 {
         margin-top: 5rem;
     }
+    
+    @media screen and (max-width: 450px){
+    .grid_container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
 </style>

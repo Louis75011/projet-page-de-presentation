@@ -1,24 +1,25 @@
 <template>
     <div>
         <!-- Interface de Programmation d'Application. L'API est une solution informatique qui permet à des applications de communiquer entre elles et de s'échanger mutuellement des services ou des données. -->
-        <h2>Requête aux API</h2>
+        <h2>Requêtes aux API</h2>
 
         <h3>1) Première image aléatoire de chat :</h3>
-        <img :src="img" alt="cat" class="img">
+        <img :src="img" alt="cat" class="imgAPI">
 
         <h3>2) Films du Studio Ghibli :</h3>
         <div class="container_movies">
             <div class="movie" v-for="movie in movies" :key="movie.id">
+                <img :src="movie.movie_banner" alt="movie" class="imgAPI">
                 <p class="bold-margin">Titre : {{ movie.title }}</p>
                 <p>Description : {{ movie.description }}</p>
                 <p class="bold-margin">Date de réalisation : {{ movie.release_date }}</p>
-                <p class="bold-margin">Temps en minutes : {{ movie.running_time }}</p>
-                <img :src="movie.movie_banner" alt="movie" class="img">
+                <p class="bold-margin line">Temps en minutes : {{ movie.running_time }}</p>
+                
             </div>
         </div>
 
         <h3>3) Deuxième image aléatoire de chat :</h3>
-        <img :src="imgCat" alt="cat2" class="img">
+        <img :src="imgCat" alt="cat2" class="imgAPI">
     </div>
 </template>
 
@@ -78,21 +79,28 @@
     }
 </script>
 
-<style>
+<style scoped>
     h2 {
         margin-top: 7rem;
+        font-size: 3rem;
+        font-family: 'Corinthia', cursive;
     }
 
     h3 {
         margin-top: 3rem;
+        font-size: 2rem;
+        font-family: 'Alegreya', serif;
     }
 
     p {
         margin-top: 2rem;
         margin-left: auto;
         margin-right: auto;
+        width: 90%;
         display: flex;
         text-align: center;
+        font-size: 1.1rem;
+        font-family: 'Alegreya', serif;
     }
 
     .bold-margin {
@@ -100,7 +108,12 @@
         margin-left: 1rem;
     }
 
-    .img {
+    .line {
+        border-bottom: 2px solid black;
+        margin-bottom: 1rem;
+    }
+
+    .imgAPI {
         margin: 2rem 2rem;
         height: 300px;
         width: 50%;

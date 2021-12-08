@@ -117,22 +117,29 @@
 <style scoped>
     h2 {
         margin-top: 7rem;
+        font-size: 2.5rem;
+        font-family: 'Corinthia', cursive;
     }
 
     h3 {
         margin: 3rem 3rem;
+        font-size: 2rem;
+        font-family: 'Alegreya', serif;
     }
 
     .paragraphes {
-        margin: 0rem 6rem 0rem 6rem;
+        margin: 0rem 3rem 0rem 3rem;
         display: flex;
         text-align: center;
+        font-family: 'Alegreya', serif;
+        font-size: 1.1rem;
     }
 
     .paragraphe {
-        margin: 0rem 6rem 0rem 6rem;
+        margin: 0rem 3rem 3rem 3rem;
         display: flex;
         text-align: left;
-        margin-bottom: 3rem;
+        font-family: 'Alegreya', serif;
+        font-size: 1.1rem;
     }
 </style>

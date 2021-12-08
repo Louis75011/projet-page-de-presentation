@@ -34,9 +34,10 @@
 </script>
 
 <style scoped>
-    h2,
-    h3 {
+    h2 {
         margin-top: 7rem;
+        font-size: 2.5rem;
+        font-family: 'Corinthia', cursive;
     }
 
     .grid_container {
@@ -56,7 +57,6 @@
     }
 
     .list {
-        font-family: Helvetica, Arial, sans-serif;
         margin-top: 4.5rem;
         display: flex;
         flex-direction: column;
@@ -69,6 +69,7 @@
         font-size: 20px;
         font-style: italic;
         font-size: 1.2rem;
+        font-family: 'Alegreya', serif;
     }
 
     .button {

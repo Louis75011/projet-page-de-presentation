@@ -1,7 +1,7 @@
 <template>
     <div>
         <h2>Ma page d'accueil</h2>
-        <button @click="display()"> Cacher/Afficher</button>
+        <button v-on:click="display()">Gestion d'activation</button>
         <div class="grid_container" v-if="isDisplay">
             <img src="../img/FR.jpg" class="img">
             <ul class="list">
@@ -69,6 +69,8 @@
 
     button {
         margin-top: 5rem;
+        padding: 3px;
+        border-radius: 10px;
     }
 
     h2 {

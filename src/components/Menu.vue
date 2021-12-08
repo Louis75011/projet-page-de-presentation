@@ -1,9 +1,9 @@
 <template>
     <div class="menu_container">
-        <router-link to="/" tag="button">Accueil</router-link>
-        <router-link to="/" tag="button">Forum</router-link>
-        <router-link to="/" tag="button">To-Do-Liste</router-link>
-        <router-link to="/" tag="button">API</router-link>
+        <router-link to="/" tag="button" class="title">Accueil</router-link>
+        <router-link to="/forum" tag="button" class="title">Forum compétence</router-link>
+        <router-link to="/" tag="button" class="title">Texte de recherche</router-link>
+        <router-link to="/API" tag="button" class="title">Exemple d'API</router-link>
     </div>
 </template>
 
@@ -30,5 +30,9 @@
         background: blue;
         top: 0;
         position: fixed;
+    }
+
+    .title {
+        font-style: italic;
     }
 </style>

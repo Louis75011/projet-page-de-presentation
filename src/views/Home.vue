@@ -1,7 +1,7 @@
 <template>
     <div>
         <h2>Ma page d'accueil</h2>
-        <button v-on:click="display()">Gestion d'activation</button>
+        <button v-on:click="display()">Gestion d'affichage</button>
         <div class="grid_container" v-if="isDisplay">
             <img src="../img/FR.jpg" class="img">
             <ul class="list">
@@ -54,7 +54,7 @@
         flex-direction: row;
         justify-content: center;
     }
-    
+
     .img {
         width: 60%;
         margin-top: 5rem;
@@ -71,18 +71,19 @@
         margin-top: 5rem;
         padding: 3px;
         border-radius: 10px;
+        box-shadow: 1px 1px 1px 1px ;
     }
 
     h2 {
         margin-top: 5rem;
     }
-    
-    @media screen and (max-width: 450px){
-    .grid_container {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-}
+
+    /* @media screen and (max-width: 450px) {
+        .grid_container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    } */
 </style>

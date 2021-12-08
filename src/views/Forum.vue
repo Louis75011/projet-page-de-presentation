@@ -1,5 +1,5 @@
 <template>
-  <h2>Mon forum de compétences en développement</h2>
+    <h2>Mon forum de compétences en développement</h2>
 </template>
 
 <script>
@@ -7,13 +7,13 @@
         name: 'Forum',
         data() {
             return {
-                
+
             }
         },
         methods: {
-            
-            }
+
         }
+    }
 </script>
 
 <style>

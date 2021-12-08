@@ -2,8 +2,8 @@
     <div class="menu_container">
         <router-link to="/" tag="button" class="title">Accueil</router-link>
         <router-link to="/forum" tag="button" class="title">Forum compétence</router-link>
-        <router-link to="/" tag="button" class="title">Texte de recherche</router-link>
-        <router-link to="/API" tag="button" class="title">Exemple d'API</router-link>
+        <router-link to="/search" tag="button" class="title">Recherches</router-link>
+        <router-link to="/API" tag="button" class="title">Tests d'API</router-link>
     </div>
 </template>
 

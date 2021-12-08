@@ -3,7 +3,7 @@
         <h2>Ma page d'accueil</h2>
         <button class="button" v-on:click="display()">Gestion d'affichage</button>
         <div class="grid_container" v-if="isDisplay">
-            <img src="../img/FR.jpg" class="img">
+            <img src="../assets/img/FR.jpg" class="img">
             <ul class="list">
                 <li class="li">Prénom : Florian</li>
                 <li class="li">Nom : Rouanet</li>

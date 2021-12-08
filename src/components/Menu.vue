@@ -2,7 +2,7 @@
     <div class="menu_container">
         <router-link to="/" tag="button" class="title">Accueil</router-link>
         <router-link to="/forum" tag="button" class="title">Forum compétence</router-link>
-        <router-link to="/search" tag="button" class="title">Recherches</router-link>
+        <router-link to="/search" tag="button" class="title">Plan de recherche</router-link>
         <router-link to="/API" tag="button" class="title">Tests d'API</router-link>
     </div>
 </template>
@@ -20,6 +20,7 @@
         color: white;
         cursor: pointer;
         font-size: 22px;
+
     }
 
     .menu_container {
@@ -27,12 +28,13 @@
         justify-content: space-around;
         width: 100%;
         padding: .5rem 1rem;
-        background: blue;
+        background: #00308F;
         top: 0;
         position: fixed;
     }
 
     .title {
         font-style: italic;
+        line-height: 1.8;
     }
 </style>

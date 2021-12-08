@@ -35,6 +35,6 @@
   }
 
   body {
-    background-image: linear-gradient(to right, gray, white, cyan);
+    background-image: linear-gradient(to right, #D0D0D0, white, #89CFF0);
   }
 </style>

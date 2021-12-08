@@ -1,7 +1,7 @@
 <template>
     <div>
         <h2>Ma page d'accueil</h2>
-        <button v-on:click="display()">Gestion d'affichage</button>
+        <button class="button" v-on:click="display()">Gestion d'affichage</button>
         <div class="grid_container" v-if="isDisplay">
             <img src="../img/FR.jpg" class="img">
             <ul class="list">
@@ -34,56 +34,55 @@
 </script>
 
 <style scoped>
-    .list {
-        font-family: Helvetica, Arial, sans-serif;
-        font-size: 18px;
-        margin-top: 5rem;
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-        width: 100%;
+    h2,
+    h3 {
+        margin-top: 7rem;
     }
 
     .grid_container {
-        width: 100%;
         border-bottom: 1px black;
-        display: grid;
-        grid-template-rows: repeat(1, 350px);
-        grid-template-columns: repeat(2, 350px);
-        /* grid-gap: 30px; */
+        display: flex;
+        margin: 0rem 2rem 0rem 2rem;
         flex-direction: row;
         justify-content: center;
     }
 
     .img {
-        width: 60%;
         margin-top: 5rem;
+        border-radius: 3rem;
+        height: 300px;
+        border-radius: 1rem;
+        box-shadow: 1px 1px 1px 1px;
+    }
+
+    .list {
+        font-family: Helvetica, Arial, sans-serif;
+        margin-top: 4.5rem;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
     }
 
     .li {
-        width: 100%;
-        margin-top: 1rem;
+        margin-left: 2.5rem;
+        line-height: 3rem;
         font-size: 20px;
         font-style: italic;
+        font-size: 1.2rem;
     }
 
-    button {
-        margin-top: 5rem;
-        padding: 3px;
+    .button {
+        padding: 4px;
         border-radius: 10px;
-        box-shadow: 1px 1px 1px 1px ;
+        box-shadow: 1px 1px 1px 1px;
+        margin-top: 3rem;
     }
 
-    h2 {
-        margin-top: 5rem;
+    .button:hover {
+        transform: scale(1.1)
     }
 
-    /* @media screen and (max-width: 450px) {
-        .grid_container {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-    } */
+    .button:active {
+        transform: scale(1.2)
+    }
 </style>

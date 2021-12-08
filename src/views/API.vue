@@ -1,27 +1,30 @@
 <template>
     <div>
+        <!-- Interface de Programmation d'Application. L'API est une solution informatique qui permet à des applications de communiquer entre elles et de s'échanger mutuellement des services ou des données. -->
         <h2>Requête aux API</h2>
-        <h3>La 1ère image de chat aléatoire :</h3>
+
+        <h3>1) Première image aléatoire de chat :</h3>
         <img :src="img" alt="cat" class="img">
 
-        <h3>Studio Ghibli :</h3>
+        <h3>2) Films du Studio Ghibli :</h3>
         <div class="container_movies">
             <div class="movie" v-for="movie in movies" :key="movie.id">
-                <p>Titre : {{ movie.title }}</p>
+                <p class="bold-margin">Titre : {{ movie.title }}</p>
                 <p>Description : {{ movie.description }}</p>
-                <p>Date de réalisation : {{ movie.release_date }}</p>
-                <p>Temps en minutes : {{ movie.running_time }}</p>
+                <p class="bold-margin">Date de réalisation : {{ movie.release_date }}</p>
+                <p class="bold-margin">Temps en minutes : {{ movie.running_time }}</p>
                 <img :src="movie.movie_banner" alt="movie" class="img">
             </div>
         </div>
 
-        <h3>La 2e image de chat aléatoire :</h3>
+        <h3>3) Deuxième image aléatoire de chat :</h3>
         <img :src="imgCat" alt="cat2" class="img">
     </div>
 </template>
 
 <script>
     import axios from "axios"
+
     export default {
         name: 'API',
         data() {
@@ -33,7 +36,7 @@
             }
         },
         methods: {
-            // Requêtes à des API gratuites avec Axios https://github.com/public-apis/public-apis
+            // Requêtes GET avec Axios sur des API gratuites - https://github.com/public-apis/public-apis
             // Premier essai
             getCat() {
                 axios.get("https://aws.random.cat/meow").then((res) => {
@@ -44,7 +47,7 @@
                 })
             },
             // Clé API
-            getCat2() {
+            getCatTwo() {
                 axios.get("https://api.thecatapi.com/v1/images/search", {
                     headers: {
                         "Authorization": 'Bearer ' + this.apiKey
@@ -69,7 +72,7 @@
         // Page montée automatisée
         mounted() {
             this.getCat()
-            this.getCat2()
+            this.getCatTwo()
             this.getFilm()
         }
     }
@@ -77,10 +80,32 @@
 
 <style>
     h2 {
-        margin-top: 5rem;
+        margin-top: 7rem;
+    }
+
+    h3 {
+        margin-top: 3rem;
+    }
+
+    p {
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        text-align: center;
+    }
+
+    .bold-margin {
+        font-weight: bold;
+        margin-left: 1rem;
     }
 
     .img {
+        margin: 2rem 2rem;
         height: 300px;
+        width: 50%;
+        height: 50%;
+        border-radius: 1rem;
+        box-shadow: 1px 1px 1px 1px;
     }
 </style>

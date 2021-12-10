@@ -5,11 +5,11 @@
         <div class="grid_container" v-if="isDisplay">
             <img src="../assets/img/FR.jpg" class="img">
             <ul class="list">
-                <li class="li">Prénom : Florian</li>
+                <li class="li">Prénom : Louis</li>
                 <li class="li">Nom : Rouanet</li>
                 <li class="li">Date de naissance : 5 septembre 1990</li>
                 <li class="li">Nationalité : Française</li>
-                <li class="li">Profession : Développeur front-end</li>
+                <li class="li">Profession : Développeur dit frontal</li>
             </ul>
         </div>
     </div>

@@ -1,0 +1,60 @@
+{
+    "languages": [{
+            "title": "HTML/CSS",
+            "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.chicagocomputerclasses.com%2Fwp-content%2Fuploads%2F2014%2F04%2Fhtml5-css31-180x180.png&f=1&nofb=1",
+            "text": "Langages de base pour fonder la partie frontale d'un site web",
+            "id": 1
+        },
+        {
+            "title": "Javascript",
+            "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.britefish.net%2Fwp-content%2Fuploads%2F2019%2F06%2Flogo-javascript-2-150x150.png&f=1&nofb=1",
+            "text": "Langage POO puissant avec ses frameworks",
+            "id": 2
+        }
+    ],
+    "technologies": [{
+            "title": "Bootstrap",
+            "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fproyectosbeta.net%2Fwp-content%2Fuploads%2F2014%2F07%2FLogo-de-Bootstrap.png&f=1&nofb=1",
+            "text": "Bibliothèque de code CSS rapide et efficace d'utilisation",
+            "id": 11
+        },
+        {
+            "title": "SASS",
+            "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fmedia.kulturbanause.de%2Fblog%2F2014%2F05%2Fsass-logo-140x140.jpg&f=1&nofb=1",
+            "text": "Framework puissant",
+            "id": 12
+        }
+    ],
+    "concepts": [{
+            "title": "SEO",
+            "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F4.imimg.com%2Fdata4%2FHP%2FGJ%2FMY-6281574%2Fsearch-engine-optimization-service-250x250.png&f=1&nofb=1",
+            "text": "Bonnes pratiques, optimiser et accessible",
+            "id": 23
+        },
+        {
+            "title": "W3C",
+            "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fexamples.anysurfer.be%2F2.3.1%2Flogo_W3C.gif&f=1&nofb=1",
+            "text": "Bonnes pratiques HTML/CSS",
+            "id": 24
+        }
+    ],
+    "softwares": [{
+            "title": "Postman",
+            "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcloudmaniac.net%2Fwp-content%2Fuploads%2F2017%2F10%2Fpostman-logo-150x150.png&f=1&nofb=1",
+            "text": "Interface de gestion des requêtes aux API",
+            "id": 36
+        },
+        {
+            "title": "VS Code",
+            "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fregmedia.co.uk%2F2015%2F11%2F27%2Fvisual_studio_code_logo.jpg%3Fx%3D198%26y%3D131%26crop%3D1&f=1&nofb=1",
+            "text": "Interface utilisateur très connu pour être aider dans l'implémentation de son code",
+            "id": 37
+        },
+        {
+            "title": "Zoom",
+            "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwindows10pro.net%2Fwp-content%2Fuploads%2F2020%2F04%2Fzoom-app.png&f=1&nofb=1",
+            "text": "Logiciel de visio conférence pratique pour se voir et partager son écran à distance",
+            "id": 38
+        }
+    ]
+}

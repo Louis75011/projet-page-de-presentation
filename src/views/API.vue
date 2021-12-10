@@ -14,7 +14,6 @@
                 <p>Description : {{ movie.description }}</p>
                 <p class="bold-margin">Date de réalisation : {{ movie.release_date }}</p>
                 <p class="bold-margin line">Temps en minutes : {{ movie.running_time }}</p>
-                
             </div>
         </div>
 

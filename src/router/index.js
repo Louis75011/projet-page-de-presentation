@@ -25,6 +25,13 @@ const routes = [{
         name: "API",
         component: () =>
             import("@/views/API.vue"),
+    },
+
+    {
+        path: "/crud",
+        name: "CRUD",
+        component: () =>
+            import("@/views/CRUD.vue"),
     }
 ];
 

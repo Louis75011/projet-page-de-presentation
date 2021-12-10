@@ -125,6 +125,7 @@
         margin: 3rem 3rem;
         font-size: 2rem;
         font-family: 'Alegreya', serif;
+        color: crimson;
     }
 
     .paragraphes {

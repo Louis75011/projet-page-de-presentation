@@ -6,55 +6,157 @@
             "id": 1
         },
         {
-            "title": "Javascript",
+            "title": "JavaScript",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.britefish.net%2Fwp-content%2Fuploads%2F2019%2F06%2Flogo-javascript-2-150x150.png&f=1&nofb=1",
-            "text": "Langage POO puissant avec ses frameworks",
+            "text": "Langage puissant de Programmation Orientée Objet, rendant un site dynamique, influencé par l'algorithmique et incontournable du développeur grâce à ses nombreux frameworks",
             "id": 2
+        },
+        {
+            "title": "TypeScript",
+            "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fduncanleung.com%2Fstatic%2F1890d08d372e93441aa7aef3aa4c8464%2F92ab1%2Ftypescript.png&f=1&nofb=1",
+            "text": "Langage de programmation libre développé par Microsoft qui a pour but d'améliorer et de sécuriser la production de code JavaScript (son sur-ensemble syntaxique strict)",
+            "id": 3
         }
     ],
     "technologies": [{
+            "title": "API REST",
+            "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpc.ru%2Fwp-content%2Fuploads%2F2017%2F09%2Frest-api-180x180.png&f=1&nofb=1",
+            "text": "Ou interface particulière de programme d'application : un ensemble de règles permettant à différents programmes de communiquer entre eux. Il décrit la manière appropriée pour un développeur de logiciels de composer un programme sur un serveur qui communique avec diverses applications clientes.",
+            "id": 10
+        },
+        {
             "title": "Bootstrap",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fproyectosbeta.net%2Fwp-content%2Fuploads%2F2014%2F07%2FLogo-de-Bootstrap.png&f=1&nofb=1",
             "text": "Bibliothèque de code CSS rapide et efficace d'utilisation",
             "id": 11
         },
         {
+            "title": "Canvas",
+            "img": "https://webmobtuts.com/wp-content/uploads/2021/02/HTML-Canvas-Manipulation-With-Javascript-Series-Drawing-2D.jpg",
+            "text": "Type de dessin, l'élément canevas est un composant du langage Web HTML qui permet d'effectuer des rendus dynamiques d' images bitmap en utilisant des scripts dans des langages tels que le javascript.",
+            "id": 12
+        },
+        {
+            "title": "Git",
+            "img": "https://developer.asustor.com/uploadIcons/0020_999_1596442150_GIT.png",
+            "text": "système de contrôle de version distribué conçu pour tout gérer, des petits aux très grands projets, avec rapidité et efficacité.",
+            "id": 13
+        },
+        {
+            "title": "jQuery",
+            "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbotw-pd.s3.amazonaws.com%2Fstyles%2Flogo-thumbnail%2Fs3%2F092011%2Fjquery.png%3Fitok%3DYh7GpHmE&f=1&nofb=1",
+            "text": "Bibliothèque de code JavaScript dynamique et simplifiée",
+            "id": 14
+        },
+        {
+            "title": "JSON",
+            "img": "https://nextfaze.gallerycdn.vsassets.io/extensions/nextfaze/json-parse-stringify/1.0.2/1519864325244/Microsoft.VisualStudio.Services.Icons.Default",
+            "text": "C'est un format de fichier standard ouvert et un format d’échange de données qui utilise du texte lisible par l’homme pour stocker et transmettre des objets de données composés de paires et de tableaux 'attribut-valeur'",
+            "id": 15
+        },
+        {
+            "title": "NPM",
+            "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs3.amazonaws.com%2Fimpressivewebs%2F2017-01%2Fnpm-article.png&f=1&nofb=1",
+            "text": "Gestionnaire de paquet de Node.js pouvant ajouter tous les modules disponibles pour un projet donné.",
+            "id": 16
+        },
+        {
+            "title": "React",
+            "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.rlogical.com%2Fwp-content%2Fuploads%2F2018%2F09%2Fblog7.png&f=1&nofb=1",
+            "text": "Framework JavaScript inventé par FaceBook utilisant la logique des composants",
+            "id": 18
+        },
+        {
+            "title": "REGEX",
+            "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimage.winudf.com%2Fv2%2Fimage1%2Fc3BlbmNlcnN0dWRpb3MuY29tLnJlZ2V4YXBwX2ljb25fMTU0MjA5NjMwOV8wMDU%2Ficon.png%3Fw%3D170%26fakeurl%3D1&f=1&nofb=1",
+            "text": "Façon commune de nommer les expressions régulières. Ces puissants outils permettent de représenter des spécimens de chaînes de caractères. Les Regex peuvent être employées pour examiner, changer et manier du texte.",
+            "id": 19
+        },
+        {
             "title": "SASS",
             "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fmedia.kulturbanause.de%2Fblog%2F2014%2F05%2Fsass-logo-140x140.jpg&f=1&nofb=1",
             "text": "Framework puissant",
-            "id": 12
+            "id": 20
+        },
+        {
+            "title": "TailWindCSS",
+            "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.saashub.com%2Fimages%2Fapp%2Fservice_logos%2F11%2Fb544df2f3eeb%2Flarge.png%3F1530842174&f=1&nofb=1",
+            "text": "Framework et bibliothèque de code CSS bien particularisé",
+            "id": 21
+        },
+        {
+            "title": "Wordpress",
+            "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftproger.ru%2Fs3%2Fuploads%2F2020%2F12%2Fvue-js-roadmap-2021-cover-icon-1-2x.png&f=1&nofb=1",
+            "text": "Outil CMS de création de site web en ligne",
+            "id": 22
+        },
+        {
+            "title": "Vue.js",
+            "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2016%2F11%2F09%2F08%2F58%2Fwordpress-1810632__180.jpg&f=1&nofb=1",
+            "text": "Framework JavaScript en Open Source utilisant la logique des composants",
+            "id": 23
         }
     ],
     "concepts": [{
             "title": "SEO",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F4.imimg.com%2Fdata4%2FHP%2FGJ%2FMY-6281574%2Fsearch-engine-optimization-service-250x250.png&f=1&nofb=1",
             "text": "Bonnes pratiques, optimiser et accessible",
-            "id": 23
+            "id": 25
+        },
+        {
+            "title": "SCRUM",
+            "img": "https://onlyweb-formation.com/uploads/mod_logo/methode_agile1.png",
+            "text": "Cadre de développement de produits complexes qui encourage les équipes à apprendre par l'expérience, mais aussi à s'auto-organiser pendant qu'elles tentent de résoudre un problème",
+            "id": 26
         },
         {
             "title": "W3C",
             "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fexamples.anysurfer.be%2F2.3.1%2Flogo_W3C.gif&f=1&nofb=1",
             "text": "Bonnes pratiques HTML/CSS",
-            "id": 24
+            "id": 27
         }
     ],
     "softwares": [{
+            "title": "Docker",
+            "img": "https://static.cachem.fr/uploads/2015/02/fbbb494a7eef5f9278c6967b6072ca3e.jpg",
+            "text": "Docker est la plateforme de containers virtuels la plus populaire et la plus utilisée. ",
+            "id": 34
+        },
+        {
+            "title": "Google Chrome",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Chrome_icon_%28September_2014%29.svg/2048px-Google_Chrome_icon_%28September_2014%29.svg.png",
+            "text": "Navigateur internet simplifié et sécurisé très usité.",
+            "id": 35
+        },
+        {
+            "title": "Office 365",
+            "img": "https://static-s.aa-cdn.net/img/mac/1450038993/778706541c64cc936901e8ef500af402?v=1",
+            "text": "Office 365  est la suite de travail collaboratif de Microsoft qui contient de nombreux produits incontournables et complémentaires (document, tableau, diapositive, etc.)",
+            "id": 36
+        },
+        {
             "title": "Postman",
             "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcloudmaniac.net%2Fwp-content%2Fuploads%2F2017%2F10%2Fpostman-logo-150x150.png&f=1&nofb=1",
             "text": "Interface de gestion des requêtes aux API",
-            "id": 36
+            "id": 37
         },
         {
             "title": "VS Code",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fregmedia.co.uk%2F2015%2F11%2F27%2Fvisual_studio_code_logo.jpg%3Fx%3D198%26y%3D131%26crop%3D1&f=1&nofb=1",
             "text": "Interface utilisateur très connu pour être aider dans l'implémentation de son code",
-            "id": 37
+            "id": 38
+        },
+        {
+            "title": "Xmind",
+            "img": "https://assets.xmind.net/www/assets/images/xmind2021/xmind2021-logo_512x512@2x-b5005db0ed.png",
+            "text": "Outil pour créer une carte mentale performante en quelques fonctionnalités",
+            "id": 39
         },
         {
             "title": "Zoom",
             "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwindows10pro.net%2Fwp-content%2Fuploads%2F2020%2F04%2Fzoom-app.png&f=1&nofb=1",
             "text": "Logiciel de visio conférence pratique pour se voir et partager son écran à distance",
-            "id": 38
+            "id": 40
         }
     ]
 }

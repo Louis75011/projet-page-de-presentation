@@ -1,9 +1,9 @@
 <template>
     <div>
-        <h2>Mon forum de compétences en développement</h2>
-        <!-- DB npm install -g json-server & json-server --watch db.json FOR MY FORUM - CRUD -->
-        <div class="container_forum">
-            <div class="line-top">
+        <h2 class="mb">Mon forum de compétences en développement</h2>
+        <!-- Json-server - FORUM & CRUD -->
+        <div class="container_forum post">
+            <div>
                 <h3>Langages :</h3>
                 <div v-for="language in fetchLanguages" :key="language.id">
                     <h4>{{language.title}}</h4>
@@ -39,8 +39,9 @@
                 </div>
             </div>
 
-            <span class="m-b"></span>
+
         </div>
+                    <div class="mb"></div>
     </div>
 </template>
 
@@ -109,8 +110,8 @@
 
     h3 {
         text-decoration: underline;
-        font-size: 2rem;
-        margin-top: 2rem;
+        font-size: 2.3rem;
+        margin-top: 2.5rem;
         font-family: 'Alegreya', serif;
     }
 
@@ -135,27 +136,33 @@
         height: auto;
     }
 
+    .post {
+        border-width: 2px;
+        border-style: dotted;
+        border-color: black;
+        margin: 0rem 1rem;
+    }
+
     .end {
         margin-bottom: 3rem;
     }
 
     .line-top {
-        width: 80%;
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
-        border-top: 2px solid darkred;
+        border-top: 4px solid darkred;
         margin-top: 1rem;
     }
 
     .line-bottom {
-        width: 60%;
+        width: 75%;
         margin-left: auto;
         margin-right: auto;
         border-bottom: 2px solid gray;
     }
 
-    .m-b {
+    .mb {
         margin-bottom: 3rem;
-        padding-bottom: 3rem;
     }
 </style>

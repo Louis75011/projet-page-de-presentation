@@ -1,9 +1,9 @@
 <template>
     <div>
         <h2>Ma page d'accueil</h2>
-        <button class="button" v-on:click="display()">Gestion d'affichage</button>
+        <button v-on:click="display()">Gestion d'affichage</button>
         <div class="grid_container" v-if="isDisplay">
-            <img src="../assets/img/FR.jpg" class="img">
+            <img src="../assets/img/FRone.jpg" class="img">
             <ul class="list">
                 <li class="li">Prénom : Louis</li>
                 <li class="li">Nom : Rouanet</li>
@@ -72,18 +72,18 @@
         font-family: 'Alegreya', serif;
     }
 
-    .button {
+    button {
         padding: 4px;
         border-radius: 10px;
         box-shadow: 1px 1px 1px 1px;
         margin-top: 3rem;
     }
 
-    .button:hover {
+    button:hover {
         transform: scale(1.1)
     }
 
-    .button:active {
+    button:active {
         transform: scale(1.2)
     }
 </style>

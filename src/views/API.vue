@@ -88,6 +88,8 @@
     h3 {
         margin-top: 3rem;
         font-size: 2rem;
+        text-decoration: underline;
+        color: crimson;
         font-family: 'Alegreya', serif;
     }
 

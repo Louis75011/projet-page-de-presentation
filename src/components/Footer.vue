@@ -1,6 +1,6 @@
 <template>
     <div>
-        <a href="mailto:louisrouanet@gmail.com">Contactez-nous</a>
+        <a href="mailto:louisrouanet75@gmail.com">Contactez-nous</a>
     </div>
 </template>
 

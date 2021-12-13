@@ -2,19 +2,19 @@
     "languages": [{
             "title": "HTML/CSS",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.chicagocomputerclasses.com%2Fwp-content%2Fuploads%2F2014%2F04%2Fhtml5-css31-180x180.png&f=1&nofb=1",
-            "text": "Langages de base pour fonder la partie frontale d'un site web",
+            "text": "Le HTML est un langage de balisage, c’est-à-dire un langage qui va nous permettre de définir les différents contenus d’une page. Le CSS, lui, va servir à mettre en forme les différents contenus définis par le HTML en leur appliquant des styles.",
             "id": 1
         },
         {
             "title": "JavaScript",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.britefish.net%2Fwp-content%2Fuploads%2F2019%2F06%2Flogo-javascript-2-150x150.png&f=1&nofb=1",
-            "text": "Langage puissant de Programmation Orientée Objet, rendant un site dynamique, influencé par l'algorithmique et incontournable du développeur grâce à ses nombreux frameworks",
+            "text": "Langage puissant de Programmation Orientée Objet, rendant un site dynamique, influencé par l'algorithmique et incontournable du développeur grâce à ses nombreux frameworks.",
             "id": 2
         },
         {
             "title": "TypeScript",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fduncanleung.com%2Fstatic%2F1890d08d372e93441aa7aef3aa4c8464%2F92ab1%2Ftypescript.png&f=1&nofb=1",
-            "text": "Langage de programmation libre développé par Microsoft qui a pour but d'améliorer et de sécuriser la production de code JavaScript (son sur-ensemble syntaxique strict)",
+            "text": "Langage de programmation libre développé par Microsoft qui a pour but d'améliorer et de sécuriser la production de code JavaScript (son sur-ensemble syntaxique strict).",
             "id": 3
         }
     ],
@@ -27,7 +27,7 @@
         {
             "title": "Bootstrap",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fproyectosbeta.net%2Fwp-content%2Fuploads%2F2014%2F07%2FLogo-de-Bootstrap.png&f=1&nofb=1",
-            "text": "Bibliothèque de code CSS rapide et efficace d'utilisation",
+            "text": "Il s'agit d'une bibliothèque de code CSS rapide et efficace d'utilisation, un framework frontal utilisé pour un développement Web plus facile.",
             "id": 11
         },
         {
@@ -45,25 +45,25 @@
         {
             "title": "jQuery",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbotw-pd.s3.amazonaws.com%2Fstyles%2Flogo-thumbnail%2Fs3%2F092011%2Fjquery.png%3Fitok%3DYh7GpHmE&f=1&nofb=1",
-            "text": "Bibliothèque de code JavaScript dynamique et simplifiée",
+            "text": "Bibliothèque de code JavaScript dynamique et simplifiée qui a assez mal vieillie dans le temps pour des raisons de bonnes pratiques SEO.",
             "id": 14
         },
         {
             "title": "JSON",
             "img": "https://nextfaze.gallerycdn.vsassets.io/extensions/nextfaze/json-parse-stringify/1.0.2/1519864325244/Microsoft.VisualStudio.Services.Icons.Default",
-            "text": "C'est un format de fichier standard ouvert et un format d’échange de données qui utilise du texte lisible par l’homme pour stocker et transmettre des objets de données composés de paires et de tableaux 'attribut-valeur'",
+            "text": "C'est un format de fichier standard ouvert et un format d’échange de données qui utilise du texte lisible par l’homme pour stocker et transmettre des objets de données composés de paires et de tableaux 'attribut-valeur'.",
             "id": 15
         },
         {
             "title": "NPM",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs3.amazonaws.com%2Fimpressivewebs%2F2017-01%2Fnpm-article.png&f=1&nofb=1",
-            "text": "Gestionnaire de paquet de Node.js pouvant ajouter tous les modules disponibles pour un projet donné.",
+            "text": "Gestionnaire de paquet de Node.js pouvant ajouter par installation tous les modules disponibles dans un projet donné.",
             "id": 16
         },
         {
             "title": "React",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.rlogical.com%2Fwp-content%2Fuploads%2F2018%2F09%2Fblog7.png&f=1&nofb=1",
-            "text": "Framework JavaScript inventé par FaceBook utilisant la logique des composants",
+            "text": "Framework JavaScript inventé par FaceBook utilisant la logique des composants pour construire une page interractive unique.",
             "id": 18
         },
         {
@@ -75,87 +75,93 @@
         {
             "title": "SASS",
             "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fmedia.kulturbanause.de%2Fblog%2F2014%2F05%2Fsass-logo-140x140.jpg&f=1&nofb=1",
-            "text": "Framework puissant",
+            "text": "Le principe du préprocesseur est simple, il s’agit d’écrire les feuilles de styles au travers d’une syntaxe plus proche d’un vrai langage de programmation, que d’un langage de description (se rapprochant ici du langage Ruby).",
             "id": 20
         },
         {
             "title": "TailWindCSS",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.saashub.com%2Fimages%2Fapp%2Fservice_logos%2F11%2Fb544df2f3eeb%2Flarge.png%3F1530842174&f=1&nofb=1",
-            "text": "Framework et bibliothèque de code CSS bien particularisé",
+            "text": "C'est une alternative à Bootstrap qui est plus personnalisable. TailWind fournit les bases brutes de ce dont vous avez besoin pour styliser vos propres pages web.",
             "id": 21
         },
         {
-            "title": "Wordpress",
-            "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftproger.ru%2Fs3%2Fuploads%2F2020%2F12%2Fvue-js-roadmap-2021-cover-icon-1-2x.png&f=1&nofb=1",
-            "text": "Outil CMS de création de site web en ligne",
+            "title": "Terminal",
+            "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F878463.smushcdn.com%2F1984689%2Fwp-content%2Fuploads%2F2019%2F12%2FTerminalIcon-568-190x168.png%3Flossy%3D1%26strip%3D1%26webp%3D1&f=1&nofb=1",
+            "text": "Un terminal est un environnement avec commandes d'entrée et de sortie. Il faut bien comprendre que Console, Terminal et TTY sont étroitement liés : des équipements à travers lequels vous pouvez interagir avec un ordinateur.",
             "id": 22
         },
         {
-            "title": "Vue.js",
+            "title": "Wordpress",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2016%2F11%2F09%2F08%2F58%2Fwordpress-1810632__180.jpg&f=1&nofb=1",
-            "text": "Framework JavaScript en Open Source utilisant la logique des composants",
+            "text": "Un outil CMS de création de site web en ligne. Cela permet de publier du contenu sur le web de façon accessible à tous.",
             "id": 23
+        },
+        {
+            "title": "Vue.js",
+            "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftproger.ru%2Fs3%2Fuploads%2F2020%2F12%2Fvue-js-roadmap-2021-cover-icon-1-2x.png&f=1&nofb=1",
+            "text": "Framework évolutif pour JavaScript en Open Source utilisant la logique des composants et capable de construire des interfaces utilisateur. Vue a été conçu et pensé pour pouvoir être adopté de manière incrémentale.",
+            "id": 24
         }
     ],
     "concepts": [{
             "title": "SEO",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F4.imimg.com%2Fdata4%2FHP%2FGJ%2FMY-6281574%2Fsearch-engine-optimization-service-250x250.png&f=1&nofb=1",
-            "text": "Bonnes pratiques, optimiser et accessible",
-            "id": 25
+            "text": "L'idée d'optimisation pour les moteurs de recherche au travers de bonnes pratiques avec un code propre, minimisé et rendu accessible.",
+            "id": 27
         },
         {
             "title": "SCRUM",
             "img": "https://onlyweb-formation.com/uploads/mod_logo/methode_agile1.png",
-            "text": "Cadre de développement de produits complexes qui encourage les équipes à apprendre par l'expérience, mais aussi à s'auto-organiser pendant qu'elles tentent de résoudre un problème",
-            "id": 26
+            "text": "Cadre de développement de produits complexes qui encourage les équipes à apprendre par l'expérience, mais aussi à s'auto-organiser pendant qu'elles tentent de résoudre un problème. C'est le contraire de la planification traditionnelle qui ne laisse aucune place aux imprévus et reste dirigiste.",
+            "id": 28
         },
         {
             "title": "W3C",
             "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fexamples.anysurfer.be%2F2.3.1%2Flogo_W3C.gif&f=1&nofb=1",
-            "text": "Bonnes pratiques HTML/CSS",
-            "id": 27
+            "text": "C'est encore la logique des bonnes pratiques cette fois-ci appliquées au HTML/CSS, pour construire un code logique selon l'utilisation des balises et de la syntaxe.",
+            "id": 29
         }
     ],
     "softwares": [{
             "title": "Docker",
             "img": "https://static.cachem.fr/uploads/2015/02/fbbb494a7eef5f9278c6967b6072ca3e.jpg",
-            "text": "Docker est la plateforme de containers virtuels la plus populaire et la plus utilisée. ",
+            "text": "Docker est la plateforme de containers virtuels la plus populaire et la plus utilisée entre clients et professionnels notamment. ",
             "id": 34
         },
         {
             "title": "Google Chrome",
             "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Chrome_icon_%28September_2014%29.svg/2048px-Google_Chrome_icon_%28September_2014%29.svg.png",
-            "text": "Navigateur internet simplifié et sécurisé très usité.",
+            "text": "Navigateur internet simplifié et sécurisé construit par Google très usité, notamment par les développeur grâce à ses DevTools et son Lighthouse bien avancé.",
             "id": 35
         },
         {
             "title": "Office 365",
             "img": "https://static-s.aa-cdn.net/img/mac/1450038993/778706541c64cc936901e8ef500af402?v=1",
-            "text": "Office 365  est la suite de travail collaboratif de Microsoft qui contient de nombreux produits incontournables et complémentaires (document, tableau, diapositive, etc.)",
+            "text": "Office 365  est la suite de travail collaboratif de Microsoft qui contient de nombreux produits incontournables et complémentaires (document, tableau, diapositive, etc.).",
             "id": 36
         },
         {
             "title": "Postman",
             "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcloudmaniac.net%2Fwp-content%2Fuploads%2F2017%2F10%2Fpostman-logo-150x150.png&f=1&nofb=1",
-            "text": "Interface de gestion des requêtes aux API",
+            "text": "Interface intuitive de gestion des requêtes aux API selon toutes les routes du CRUD et les langages d'utilisations (JSON, HTML, XML, etc.).",
             "id": 37
         },
         {
             "title": "VS Code",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fregmedia.co.uk%2F2015%2F11%2F27%2Fvisual_studio_code_logo.jpg%3Fx%3D198%26y%3D131%26crop%3D1&f=1&nofb=1",
-            "text": "Interface utilisateur très connu pour être aider dans l'implémentation de son code",
+            "text": "Logiciel d'interface utilisateur gratuit, complet, efficace et très connu qui aide dans l'implémentation de notre code.",
             "id": 38
         },
         {
             "title": "Xmind",
             "img": "https://assets.xmind.net/www/assets/images/xmind2021/xmind2021-logo_512x512@2x-b5005db0ed.png",
-            "text": "Outil pour créer une carte mentale performante en quelques fonctionnalités",
+            "text": "Petit outil complet servant à créer une carte mentale performante en quelques cliques et fonctionnalités.",
             "id": 39
         },
         {
             "title": "Zoom",
             "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwindows10pro.net%2Fwp-content%2Fuploads%2F2020%2F04%2Fzoom-app.png&f=1&nofb=1",
-            "text": "Logiciel de visio conférence pratique pour se voir et partager son écran à distance",
+            "text": "Logiciel de visio-conférence pratique et très répandu en informatique et en entreprise permettant de se voir et de partager son écran à distance.",
             "id": 40
         }
     ]

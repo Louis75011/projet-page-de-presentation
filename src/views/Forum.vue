@@ -41,7 +41,7 @@
 
 
         </div>
-                    <div class="mb"></div>
+        <div class="mb"></div>
     </div>
 </template>
 
@@ -61,7 +61,7 @@
         methods: {
             getLanguages() {
                 axios.get("http://localhost:3000/languages").then((res) => {
-                    console.log(res.data)
+                    // console.log(res.data)
                     this.fetchLanguages = res.data
                 }).catch((err) => {
                     console.error(err)
@@ -69,7 +69,7 @@
             },
             getTechnologies() {
                 axios.get("http://localhost:3000/technologies").then((res) => {
-                    console.log(res.data)
+                    // console.log(res.data)
                     this.fetchTechnologies = res.data
                 }).catch((err) => {
                     console.error(err)
@@ -77,7 +77,7 @@
             },
             getConcepts() {
                 axios.get("http://localhost:3000/concepts").then((res) => {
-                    console.log(res.data)
+                    // console.log(res.data)
                     this.fetchConcepts = res.data
                 }).catch((err) => {
                     console.error(err)
@@ -85,7 +85,7 @@
             },
             getSoftwares() {
                 axios.get("http://localhost:3000/softwares").then((res) => {
-                    console.log(res.data)
+                    // console.log(res.data)
                     this.fetchSoftwares = res.data
                 }).catch((err) => {
                     console.error(err)

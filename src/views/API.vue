@@ -4,6 +4,9 @@
         <h2>Requêtes aux API</h2>
 
         <h3>1) Première image aléatoire de chat :</h3>
+        <!-- Bonus essai de Props, v-bind ; attention temps de latence API -->
+        <Props :title="title" :onClick="getCat" />
+
         <img :src="img" alt="cat" class="imgAPI">
 
         <h3>2) Films du Studio Ghibli :</h3>
@@ -24,11 +27,16 @@
 
 <script>
     import axios from "axios"
+    import Props from "../components/Props"
 
     export default {
         name: 'API',
+        components: {
+            Props
+        },
         data() {
             return {
+                title: "Prochain chat",
                 img: "",
                 imgCat: "",
                 movies: [],
@@ -37,7 +45,6 @@
         },
         methods: {
             // Requêtes GET avec Axios sur des API gratuites - https://github.com/public-apis/public-apis
-            // Premier essai
             getCat() {
                 axios.get("https://aws.random.cat/meow").then((res) => {
                     // console.log(res.data.file)

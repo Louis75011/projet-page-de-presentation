@@ -1,9 +1,11 @@
 <template>
-    <div>
+    <!-- npm run build avant de mettre en ligne pour le /dist -->
+    <div class="puff-in-center">
         <h2>Ma page d'accueil</h2>
         <button v-on:click="display()">Gestion d'affichage</button>
         <div class="grid_container" v-if="isDisplay">
-            <img src="../assets/img/FRone.jpg" class="img">
+            <img v-if="displayPicture" src="../assets/img/FRone.jpg" class="img moi">
+            <img v-else src="../assets/img/FRtwo.jpeg" class="img moi">
             <ul class="list">
                 <li class="li">Prénom : Louis</li>
                 <li class="li">Nom : Rouanet</li>
@@ -12,6 +14,15 @@
                 <li class="li">Profession : Développeur dit frontal</li>
             </ul>
         </div>
+
+        <!-- Lecteur audio -->
+        <figure>
+            <figcaption>Écoutez le message de bienvenue :</figcaption>
+            <audio controls src="../assets/audio/intro.mp3">
+                Your browser does not support the
+                <code>audio</code> element.
+            </audio>
+        </figure>
     </div>
 </template>
 
@@ -21,14 +32,28 @@
         data() {
             return {
                 // toutes les données JS dynamique
-                isDisplay: true
+                isDisplay: true,
+                displayPicture: true,
             }
+        },
+        created() {
+            this.conditionnal()
         },
         methods: {
             // Toutes les fonctions anonymes
             display() {
                 this.isDisplay = !this.isDisplay
-            }
+            },
+            numberGenerate() {
+                return Math.random()
+            },
+            conditionnal() {
+                if (this.numberGenerate() >= 0.5) {
+                    this.displayPicture = false
+                } else {
+                    this.displayPicture = true
+                }
+            },
         }
     }
 </script>
@@ -80,10 +105,20 @@
     }
 
     button:hover {
-        transform: scale(1.1)
+        transform: scale(1.1);
+        transition: 300ms ease-in;
     }
 
     button:active {
-        transform: scale(1.2)
+        transform: scale(1.2);
+        transition: 300ms ease-out;
+    }
+
+    figcaption {
+        margin-top: 3rem;
+    }
+
+    audio {
+        margin-top: 1rem;
     }
 </style>

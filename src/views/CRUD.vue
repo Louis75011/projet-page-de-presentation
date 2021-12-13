@@ -339,7 +339,7 @@
                     console.error(err);
                 })
             },
-            // Display
+            // Display on click
             displayLanguages() {
                 this.showLanguages = !this.showLanguages
             },

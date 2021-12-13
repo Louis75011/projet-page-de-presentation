@@ -1,5 +1,7 @@
 <template>
-    <!-- npm run build avant de mettre en ligne pour le /dist -->
+    <!-- npm run serve - pour ouvrir le site en frontal et en temps réel -->
+    <!-- npm run build - avant de mettre en ligne pour le /dist -->
+    <!-- json-server --watch db.json - pour gérer une base de données pour le forum -->
     <div class="puff-in-center">
         <h2>Ma page d'accueil</h2>
         <button v-on:click="display()">Gestion d'affichage</button>
